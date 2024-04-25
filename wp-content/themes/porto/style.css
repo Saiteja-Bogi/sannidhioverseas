@@ -1,0 +1,35 @@
+/*
+Theme Name: Porto | Shared by WPTry.org
+Theme URI: https://www.portotheme.com/wordpress/porto
+Author: P-THEMES
+Author URI: https://www.portotheme.com/
+Description: Porto Responsive Wordpress + eCommerce Theme.
+Version: 6.2.3
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, light, dark, red, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: porto
+*/
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+
+.bypostauthor { display: block; }
+
+/*.elementor-widget-image a img[src$=".svg"] {width: 340px; !important}*/
+
+.feature-box-step-number em {
+	transform: rotate(0deg) !important;}
+
+#header .main-menu .popup a, .side-nav-wrap .sidebar-menu .popup, .main-sidebar-menu .sidebar-menu .popup, .porto-popup-menu .sub-menu {
+	font-size:15px;
+	font-weight:600;	
+	line-height: 24px;
+	}
+
+
+.mega-menu .popup li.menu-item:hover{background:#fff !important;}
+
+.mega-menu .wide .popup>.inner>ul.sub-menu {width:900px !important;}
+.mega-menu .popup li.menu-item {padding:10px !important;}
+
+.elementor-slideshow__title{display: none;}
